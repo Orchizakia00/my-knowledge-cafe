@@ -33,7 +33,7 @@ const Blog = ({ blog, handleAddBookmark }) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
     handleAddBookmark: PropTypes.func
 }
 
